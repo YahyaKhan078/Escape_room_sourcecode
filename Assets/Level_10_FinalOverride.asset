@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b972b53862c4343a3705d6e9d463ae, type: 3}
+  m_Name: Level_10_FinalOverride
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  levelName: 'Final Override '
+  roomName: Master Control 10
+  storyDescription: Exactly two of four inputs must be HIGH to unlock.
+  hint: "Sum of pairs \u2014 use AND and OR combinations"
+  inputNames:
+  - A
+  - B
+  - C
+  - D
+  outputName: OUT
+  truthTable:
+  - inputs: 00000000
+    expectedOutput: 0
+  - inputs: 00000001
+    expectedOutput: 0
+  - inputs: 00000100
+    expectedOutput: 0
+  - inputs: 00000101
+    expectedOutput: 1
+  - inputs: 00010000
+    expectedOutput: 0
+  - inputs: 00010001
+    expectedOutput: 1
+  - inputs: 00010100
+    expectedOutput: 1
+  - inputs: 00010101
+    expectedOutput: 0
+  - inputs: 01000000
+    expectedOutput: 0
+  - inputs: 01000001
+    expectedOutput: 1
+  - inputs: 01000100
+    expectedOutput: 1
+  - inputs: 01000101
+    expectedOutput: 0
+  - inputs: 01010000
+    expectedOutput: 1
+  - inputs: 01010001
+    expectedOutput: 0
+  - inputs: 01010100
+    expectedOutput: 0
+  - inputs: 01010101
+    expectedOutput: 0
+  availableGates: 0000000001000000020000000300000004000000
+  levelIndex: 9
+  passingScore: 100

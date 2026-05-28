@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b972b53862c4343a3705d6e9d463ae, type: 3}
+  m_Name: Level_02_Mainframe
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  levelName: Mainframe Reboot
+  roomName: Core Processing Unit
+  storyDescription: "Exactly one core must be active \u2014 not both, not neither."
+  hint: "Exclusive OR \u2014 one high, one low"
+  inputNames:
+  - A
+  - B
+  outputName: OUT
+  truthTable:
+  - inputs: 0000
+    expectedOutput: 0
+  - inputs: 0001
+    expectedOutput: 1
+  - inputs: 0100
+    expectedOutput: 1
+  - inputs: 0101
+    expectedOutput: 0
+  availableGates: 00000000010000000200000003000000
+  levelIndex: 1
+  passingScore: 100
