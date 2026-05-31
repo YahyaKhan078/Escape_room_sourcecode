@@ -12,7 +12,7 @@
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-[▶ Download & Play](#%EF%B8%8F-download--play) · [Screenshots](#-screenshots) · [Features](#-features) · [Levels](#%EF%B8%8F-levels) · [Source Code](https://github.com/YahyaKhan078/Escape_room_sourcecode)
+[▶ Play on itch.io](https://ykk7.itch.io/logicdesign-escape-room) · [Screenshots](#-screenshots) · [Features](#-features) · [Levels](#%EF%B8%8F-levels) · [Source Code](https://github.com/YahyaKhan078/Escape_room_sourcecode)
 
 </div>
 
@@ -103,7 +103,7 @@ YOU ESCAPED → Back to MainMenu
 - `SceneTransitionManager` — Fade coroutines for seamless scene changes
 - `ScriptableObjects` — Level data (expected truth tables, gate constraints) stored as assets
 
-> 📁 Full Unity source code available here: [Escape_room_sourcecode](https://github.com/YahyaKhan078/Escape_room_sourcecode)
+> 📁 Full Unity source code: [Escape_room_sourcecode](https://github.com/YahyaKhan078/Escape_room_sourcecode)
 
 ---
 
@@ -122,6 +122,12 @@ YOU ESCAPED → Back to MainMenu
 ---
 
 ## ▶️ Download & Play
+
+**Option 1 — Play via itch.io (recommended)**
+
+👉 [ykk7.itch.io/logicdesign-escape-room](https://ykk7.itch.io/logicdesign-escape-room)
+
+**Option 2 — Direct download from GitHub Releases**
 
 1. Go to the [Releases](../../releases) tab
 2. Download `DLD_Escape_Room_v1.0.zip`
@@ -150,7 +156,7 @@ YOU ESCAPED → Back to MainMenu
 
 ## 🎬 Gameplay Video
 
-[![Watch on YouTube](https://img.shields.io/badge/Watch%20Gameplay-YouTube-red?style=flat-square&logo=youtube)](https://lnkd.in/gQREM4XmT)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20Gameplay-YouTube-red?style=flat-square&logo=youtube)](https://www.youtube.com/watch?v=yLP8_3Ol_9g)
 
 ---
 
@@ -176,12 +182,14 @@ YOU ESCAPED → Back to MainMenu
 
 ---
 
-## 📁 Related Repositories
+## 📁 Related
 
-| Repo | Contents |
+| Link | Contents |
 |------|----------|
-| [dld-escape-room-pc](https://github.com/YahyaKhan078/dld-escape-room-pc) | Playable Windows build — download and run |
+| [itch.io page](https://ykk7.itch.io/logicdesign-escape-room) | Play or download — game page with screenshots & trailer |
+| [dld-escape-room-pc](https://github.com/YahyaKhan078/dld-escape-room-pc) | Playable Windows build on GitHub |
 | [Escape_room_sourcecode](https://github.com/YahyaKhan078/Escape_room_sourcecode) | Full Unity project source — Assets, Scripts, Scenes |
+| [Gameplay Video](https://www.youtube.com/watch?v=yLP8_3Ol_9g) | YouTube walkthrough |
 
 ---
 
